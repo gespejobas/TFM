@@ -1,50 +1,36 @@
 # TFM: KSchool Data Science Master Project
-
-US Flight Delays Analysis
-
-## Description
-
-Descriptive analysis of US flight delays from 2015 to 2018. 
-
-Data Source: United States Department of Transportation, Bureau of Transportation Statistics.
-Dataset: Reporting Carrier On-Time Performance
-
 ---------------------------------------------
-
 # US Flight Delay Analysis - Winter Season (2018-2019)
 
-One Paragraph of project description goes here
+This project aims to analyze the Air Traffic Delay behavior in US airports, in the winter season of 2018-2019, in order to provide a wider understanding of flight delays behavior in airport operations. 
 
-## Getting Started
+## Getting oriented (:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Notebooks:
+* [Data Source] - Official website of the BTS
+* [Dataset] - Link to the description
+* [Dataset] - Link to download
+### Paper:
+* [Dataset] - Link to download
+### Visualitzations:
 
-### Prerequisites
+## Data Source:
 
-What things you need to install the software and how to install them
+Flight data was sourced from the Bureau of Transportation Statistics (BTS), of the United States Department of Transportation. The dataset utilized is the “Reporting Carrier On-Time Performance” for months: December 2018, January 2019 and February 2019. The data includes scheduled and actual departure and arrival times, canceled and diverted flights, taxi-out and taxi-in times, causes of delay and cancellation, air time, and non-stop distance, etc.
 
-```
-Give examples
-```
+* [Data Source](https://www.bts.gov/) - Official website of the BTS
+* [Dataset](https://www.transtats.bts.gov/Fields.asp) - Link to the description
+* [Dataset](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236) - Link to download
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-pip install 
-
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Technologies employed:
+* Python 3
+* Jupyter Notebooks
+### Data Analysis Libraries
+* Pandas
+* Numpy
+### Visualitzation Libraries
+* matplotlib
+* seaborn
 
 ## Author
 
@@ -52,6 +38,5 @@ Add additional notes about how to deploy this on a live system
 
 ## Appreciations
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* All the team of the Kschool professors.
+* All the great classmates I had!
